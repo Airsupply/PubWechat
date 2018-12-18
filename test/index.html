@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper-3.3.1.min.css"/>
+		<script src="js/jquery-2.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper.animate1.0.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			window.onload=function () {
+				var music= document.getElementById("music");
+				var song = document.getElementById("song");
+				music.onclick=function () {
+					if (song.paused) {
+						song.play();
+						music.className="xuanzhuan";
+					}else{
+						song.pause();
+						music.className="";
+					}
+				}
+				var mySwiper = new Swiper ('.swiper-container', {
+				    direction: 'vertical',
+				    // 如果需要前进后退按钮
+//				    nextButton: '.swiper-button-next',
+				    prevButton: '.swiper-button-prev',
+
+				     onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
+	    				swiperAnimateCache(swiper); //隐藏动画元素 
+	    				swiperAnimate(swiper); //初始化完成开始动画
+	  				}, 
+	  				onSlideChangeEnd: function(swiper){ 
+	   					swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+					} 
+				}) 
+			}
+  </script>
+	</head>
+	<body>
+		<div id="music" class="xuanzhuan">
+			<audio src="audio/Beyond - 真的爱你.m4a" autoplay="autoplay" id="song"></audio>
+		</div>
+		<div id="up" class="up"></div>
+		<div class="swiper-container">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide slide_page1">
+		        	<p></p>
+		        	<p>某某某</p>
+		        	<p>某某某</p>
+		        	<p></p>
+		        	<p class="ani" swiper-animate-effect="flipInX" swiper-animate-duration="1s" swiper-animate-delay="0.3s"></p>
+		        </div>
+		        <div class="swiper-slide slide_page2">
+		        	<p class="ani" swiper-animate-effect="swing" swiper-animate-duration="1s" swiper-animate-delay="0.3s"></p>
+		        	<p class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="1.3s"></p>
+		        	<div class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="2.3s">
+		        		<div>一生就这么一次</div>
+		        		<div>谈一场以结婚为目的的恋爱吧。</div>
+		        		<div>不再因为任性而不肯低头,</div>
+		        		<div>不再因为固执而轻言分手。</div>
+		        		<div>最后地一次坚信,一起走,就可以白头。</div>
+		        		<div>惟愿这一生,执子之手,与子偕老。</div>
+		        		<div>你敢天长,我敢地久。</div>
+		        	</div>
+		        </div>
+		        <div class="swiper-slide slide_page3">
+		        	<p class="ani" swiper-animate-effect="flipInY" swiper-animate-duration="2s" swiper-animate-delay="0.5"></p>
+		        	<p class="ani" swiper-animate-effect="slide3_1" swiper-animate-duration="1s" swiper-animate-delay="1.5s"></p>
+		 			<p class="ani" swiper-animate-effect="slide3_2" swiper-animate-duration="1s" swiper-animate-delay="2.5s"></p>
+		 			<p class="ani" swiper-animate-effect="slide3_3" swiper-animate-duration="1s" swiper-animate-delay="3.5s"></p>
+		        </div>
+		    	<div class="swiper-slide slide_page4">
+		    		<p></p>
+		    		<p>某某某&某某某</p>
+		    		<p>2018年6月16日</p>
+		    		<p class="ani" swiper-animate-effect="flipInX" swiper-animate-duration="2s" swiper-animate-delay="0.5"><span></span>18700014937</p>
+		    		<p class="ani" swiper-animate-effect="flipInX" swiper-animate-duration="2s" swiper-animate-delay="3.5"><span></span>18700014937</p>
+		    	</div>
+		    	<div class="swiper-slide slide_page5">
+
+		    		<p class="ani" swiper-animate-effect="shake" swiper-animate-duration="2s" swiper-animate-delay="1"></p>
+		    		<p class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="2s" swiper-animate-delay="3s"></p>
+		    		<p class="ani" swiper-animate-effect="flipInX" swiper-animate-duration="1s" swiper-animate-delay="4.5s" id="dianji"></p>
+		    	</div>
+		    </div>
+		</div>
+		<div id="zhezhao">
+			<div id="zhufu">
+				<div id= "head">
+					<div></div>
+					<div>祝福墙</div>
+					<div id="close">×</div>
+				</div>
+				<div>
+					<textarea name="" rows="" cols="" placeholder="写下你的祝福" maxlength="140" id="txt"></textarea>
+					<div class="limit">限140字</div>
+				</div>
+				<input type="text" placeholder="您的名字" id="name"/>
+				<input type="button" name="sent" id="sent2" value="发送" />
+				<ul id="list">
+					<li><p class="name">娄汉林</p><p class="bai">白头偕老，永结同心</p></li>
+				</ul>
+			</div>
+			
+		</div>	
+			
+		
+		
+		
+		
+		
+	</body>
+</html>
