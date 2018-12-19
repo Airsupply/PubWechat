@@ -139,7 +139,7 @@
 .page-logo {
     position: absolute;
     height: 15%;
-    top: -3%;
+    top: 5%;
     left: 30%;
     -webkit-transform: translate3d(-50%, 0, 0) scale(20);
     opacity: 0;
@@ -179,7 +179,7 @@
 .page0-title {
     position: absolute;
     height: 50%;
-    top: 50%;
+    top: 30%;
     left: 50%;
     -webkit-transform: translate3d(-50%, 0, 0) scale(20);
     opacity: 0;
@@ -191,8 +191,8 @@
 
 .page0-info {
     position: absolute;
-    height: 3.67%;
-    top: 68.15%;
+    height: 15%;
+    top: 75%;
     left: 50%;
     -webkit-transform: translate3d(-50%, 0, 0) scale(20);
     opacity: 0;
@@ -203,8 +203,7 @@
 }
 
 .page-0 .page-logo {
-    height: 20%;
-    top: 5%;
+    height: 15%;
 }
 
 .page-0 .page-title {
