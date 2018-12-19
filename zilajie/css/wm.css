@@ -192,7 +192,7 @@
 .page0-info {
     position: absolute;
     height: 15%;
-    top: 75%;
+    top: 80%;
     left: 50%;
     -webkit-transform: translate3d(-50%, 0, 0) scale(20);
     opacity: 0;
@@ -269,7 +269,7 @@
 }
 
 .tips img {
-    height: 35px;
+    height: 60px;
 }
 
 .tips .name {
