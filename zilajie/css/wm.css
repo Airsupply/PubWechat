@@ -140,7 +140,7 @@
     position: absolute;
     height:15%;
     top: 1%;
-    left: 30%;
+    left: 20%;
     -webkit-transform: translate3d(-50%, 0, 0) scale(20);
     opacity: 0;
 }
@@ -201,7 +201,7 @@
     -webkit-animation: 0.4s scale-to-zero-with-center 1.2s cubic-bezier(.17, .67, .11, .93) forwards;
 }
 .page-0 .page-logo {
-    height: 10%;
+    height: 15%;
 }
 
 .page-0 .page-title {
