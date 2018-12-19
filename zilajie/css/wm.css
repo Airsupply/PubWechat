@@ -196,12 +196,10 @@
     left: 50%;
     -webkit-transform: translate3d(-50%, 0, 0) scale(20);
     opacity: 0;
-}
-
+}
 .animate .page0-info {
     -webkit-animation: 0.4s scale-to-zero-with-center 1.2s cubic-bezier(.17, .67, .11, .93) forwards;
-}
-
+}
 .page-0 .page-logo {
     height: 15%;
 }
@@ -255,7 +253,7 @@
 
 .comment-wall {
     position: absolute;
-    left: 0;
+    left: 100%;
     right: 0;
     top: 0;
     bottom: 0;
