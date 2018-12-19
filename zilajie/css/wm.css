@@ -164,8 +164,8 @@
 
 .page-subtitle {
     position: absolute;
-    height: 5.05%;
-    top: 29.75%;
+    height: 50%;
+    top: -20%;
     left: 50%;
     -webkit-transform: translate3d(-50%, 0, 0) scale(20);
     opacity: 0;
@@ -253,7 +253,7 @@
 
 .comment-wall {
     position: absolute;
-    left: 100%;
+    left: 0;
     right: 0;
     top: 0;
     bottom: 0;
