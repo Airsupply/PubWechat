@@ -138,9 +138,9 @@
 /*标题和图标*/
 .page-logo {
     position: absolute;
-    height: 8.03%;
-    top: 10.71%;
-    left: 50%;
+    height: 100%;
+    top: 5%;
+    left: 30%;
     -webkit-transform: translate3d(-50%, 0, 0) scale(20);
     opacity: 0;
 }
@@ -151,10 +151,10 @@
 
 .page-title {
     position: absolute;
-    height: 7.44%;
-    top: 22.71%;
+    height: 100%;
+    top: 100%;
     left: 50%;
-    -webkit-transform: translate3d(-50%, 0, 0) scale(20);
+    -webkit-transform: translate3d(50%, 0, 0) scale(100);
     opacity: 0;
 }
 
