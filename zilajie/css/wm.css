@@ -138,8 +138,8 @@
 /*标题和图标*/
 .page-logo {
     position: absolute;
-    height: 15%;
-    top: 5%;
+    height:15%;
+    top: 1%;
     left: 30%;
     -webkit-transform: translate3d(-50%, 0, 0) scale(20);
     opacity: 0;
@@ -151,8 +151,8 @@
 
 .page-title {
   	position: absolute;
-    height: 500%;
-    top: -50%;
+    height: 300%;
+    top: -80%;
     left: 50%;
     -webkit-transform: translate3d(-50%, 0, 0) scale(100);
     opacity: 0;
@@ -201,12 +201,12 @@
     -webkit-animation: 0.4s scale-to-zero-with-center 1.2s cubic-bezier(.17, .67, .11, .93) forwards;
 }
 .page-0 .page-logo {
-    height: 15%;
+    height: 10%;
 }
 
 .page-0 .page-title {
     height: 25%;
-    top: 18%;
+    top: 10%;
 }
 
 /*第一页的图片墙*/
