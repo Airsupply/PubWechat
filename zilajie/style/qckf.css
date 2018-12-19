@@ -44,7 +44,7 @@ body,html,.swiper-container{
 .p1conimg1{
 	display: block;
 	position: absolute;
-	top:45%;
+	top:50%;
 	left:10%;
 	width: 80%;
 	animation: scaleArrow 1s infinite ease-in-out;
