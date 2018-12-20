@@ -151,8 +151,8 @@
 
 .page-title {
   	position: absolute;
-    height: 10%;
-    top: -80%;
+    height: 22%;
+    top: 10%;
     left: 50%;
     -webkit-transform: translate3d(-50%, 0, 0) scale(100);
     opacity: 0;
