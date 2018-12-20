@@ -292,7 +292,7 @@
 .page2-border {
     position: absolute;
     top: 46%;
-    height: 44.64%;
+    height: 0%;
     width: 100%;
     left: 50%;
     -webkit-transform: translate3d(-50%, 0, 0);
