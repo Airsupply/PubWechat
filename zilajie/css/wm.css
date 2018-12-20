@@ -151,7 +151,7 @@
 
 .page-title {
   	position: absolute;
-    height: 300%;
+    height: 10%;
     top: -80%;
     left: 50%;
     -webkit-transform: translate3d(-50%, 0, 0) scale(100);
@@ -165,7 +165,7 @@
 .page-subtitle {
     position: absolute;
     height: 50%;
-    top: -20%;
+    top: 2%;
     left: 50%;
     -webkit-transform: translate3d(-50%, 0, 0) scale(20);
     opacity: 0;
@@ -274,16 +274,16 @@
 
 .tips .name {
     position: absolute;
-    font-size: 9px;
-    left: 43px;
+    font-size: 12px;
+    left: 65px;
     right: 0;
 }
 
 .tips .duty {
     position: absolute;
-    font-size: 7px;
+    font-size: 9px;
     top: 40%;
-    left: 43px;
+    left: 65px;
     right: 0;
     bottom: 0;
 }
