@@ -164,7 +164,7 @@
 
 .page-subtitle {
     position: absolute;
-    height: 50%;
+    height: 30%;
     top: 2%;
     left: 50%;
     -webkit-transform: translate3d(-50%, 0, 0) scale(20);

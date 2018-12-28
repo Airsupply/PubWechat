@@ -8,13 +8,15 @@ window.data = {};
 
 window.data.userPicData = [
 
+	
+
 	{
 
 		avatar : "images/page1-zenghang.jpg",
 
-		name : "曾航",
+		name : "老婆饼",
 
-		duty : "触控科技高级战略分析总监"
+		duty : "老婆...香浓"
 
 	},
 
@@ -22,41 +24,41 @@ window.data.userPicData = [
 
 		avatar : "images/page1-chaike.jpg",
 
-		name : "柴可",
+		name : "蚵仔煎",
 
-		duty : "大姨吗CEO"
+		duty : "蚵仔煎-闻名的台湾小吃。"
 
 	}, {
 
 		avatar : "images/page1-chenqi.jpg",
 
-		name : "陈琪",
+		name : "大肠包小肠",
 
-		duty : "蘑菇街CEO"
+		duty : "源于花莲的传统台湾小食"
 
 	}, {
 
 		avatar : "images/page1-chentong.jpg",
 
-		name : "陈彤",
+		name : "灯泡黑糖珍珠奶茶",
 
-		duty : "小米副总裁"
+		duty : "慈禧太后进贡的献寿礼,家喻户晓的甜点。"
 
 	}, {
 
 		avatar : "images/page1-qinglonglaozei.jpg",
 
-		name : "青龙老贼",
+		name : "酸辣粉",
 
-		duty : "WeMedia新媒体集团创始人兼CEO"
+		duty : "传统手工漏制。"
 
 	}, {
 
 		avatar : "images/page1-diaoye.jpg",
 
-		name : "雕爷",
+		name : "章鱼烧",
 
-		duty : "阿芙精油、雕爷牛腩、河狸家创始人"
+		duty : "源于日本大阪"
 
 	},
 
@@ -64,9 +66,9 @@ window.data.userPicData = [
 
 		avatar : "images/page1-qinglonglaozei.jpg",
 
-		name : "青龙老贼",
+		name : "青龙粉",
 
-		duty : "WeMedia新媒体集团创始人兼CEO"
+		duty : "看着就有食欲"
 
 	},
 
@@ -74,105 +76,105 @@ window.data.userPicData = [
 
 		avatar : "images/page1-fengdahui.jpg",
 
-		name : "冯大辉",
+		name : "帅哥黄金雕冰淇淋",
 
-		duty : "知名自媒体人、丁香园CTO"
+		duty : "既精致且新鲜的甜品"
 
 	}, {
 
 		avatar : "images/page1-gejia.jpg",
 
-		name : "葛甲",
+		name : "雷门烧麻薯",
 
-		duty : "知名自媒体人、网络舆情分析师 "
+		duty : "客家米食代表性食品"
 
 	}, {
 
 		avatar : "images/page1-guijiaoqi.jpg",
 
-		name : "鬼脚七",
+		name : "车轮饼",
 
-		duty : "知名自媒体人"
+		duty : "豐富樣式與口味。"
 
 	}, {
 
 		avatar : "images/page1-guodingqi.jpg",
 
-		name : "郭丁绮",
+		name : "法式可丽饼",
 
-		duty : "上海家化电子商务有限公司总经理"
+		duty : "搭配十分多样化咸食甜食皆各占一方"
 
 	}, {
 
 		avatar : "images/page1-lilin.jpg",
 
-		name : "李林",
+		name : "南翔小笼包",
 
-		duty : "火币网创始人兼CEO"
+		duty : "皮薄、馅多、卤重、味鲜。"
 
 	}, {
 
 		avatar : "images/page1-liya.jpg",
 
-		name : "李亚",
+		name : "米粉",
 
-		duty : "凤凰网总裁"
+		duty : "洁白、细嫩、软滑、爽口。"
 
 	}, {
 
 		avatar : "images/page1-lizhiguo.jpg",
 
-		name : "李治国",
+		name : "清补凉",
 
-		duty : "挖财董事长兼CEO"
+		duty : "以红豆(绿豆)、薏米、花生、空心粉等做成。"
 
 	}, {
 
 		avatar : "images/page1-liujiangfeng.jpg",
 
-		name : "刘江峰",
+		name : "丝袜奶茶",
 
-		duty : "华为荣耀集团事业部总裁"
+		duty : "丝袜奶茶的方式泡制。"
 
 	}, {
 
 		avatar : "images/page1-liuliang.jpg",
 
-		name : "刘亮",
+		name : "葡式蛋挞",
 
-		duty : "游久时代CEO"
+		duty : "奶油酥皮满嘴香。"
 
 	}, {
 
 		avatar : "images/page1-longwei.jpg",
 
-		name : "龙伟",
+		name : "鸭血粉丝",
 
-		duty : "大众点评网联合创始人"
+		duty : "口感鲜香，爽口宜人。"
 
 	}, {
 
 		avatar : "images/page1-luwei.jpg",
 
-		name : "卢卫",
+		name : "土笋冻",
 
-		duty : "中国互联网协会秘书长"
+		duty : "特有产品加工而成的冻品。"
 
 	}, {
 
 		avatar : "images/page1-lvguihua.jpg",
 
-		name : "吕桂华",
+		name : "海城馅饼",
 
-		duty : "七牛云存储总裁"
+		duty : "香料十余种煮制"
 
 	}, {
 
 		avatar : "images/page1-mouguixian.jpg",
 
-		name : "牟贵先",
+		name : "碗耳糕",
 
-		duty : "国美在线董事长兼CEO"
+		duty : "形状像一个小茶碗"
 
 	},
 
@@ -180,9 +182,9 @@ window.data.userPicData = [
 
 		avatar : "images/page1-fangyu.jpg",
 
-		name : "方雨",
+		name : "阿里山爱玉",
 
-		duty : "WeMedia自媒体联盟联合创始人"
+		duty : "养颜美容又美白。"
 
 	},
 
@@ -192,91 +194,94 @@ window.data.userPicData = [
 
 		avatar : "images/page1-wanggaofei.jpg",
 
-		name : "王高飞",
+		name : "三大炮",
 
-		duty : "新浪微博CEO"
+		duty : "主要由糯米制成"
 
 	}, {
 
 		avatar : "images/page1-wangjiang.jpg",
 
-		name : "王江(连长)",
+		name : "虾饺",
 
-		duty : "航班管家创始人兼CEO"
+		duty : "配上猪肉、竹笋，制成肉馅。"
 
 	}, {
 
 		avatar : "images/page1-wubixuan.jpg",
 
-		name : "吴碧瑄",
+		name : "辣鱼蛋",
 
-		duty : "特斯拉集团全球副总裁，中国区总裁"
+		duty : "在HK辣鱼蛋一直够辣"
 
 	}, {
 
 		avatar : "images/page1-wuxiaobo.jpg",
 
-		name : "吴晓波",
+		name : "多一波",
 
-		duty : "知名财经作家"
+		duty : "清爽但刺激"
 
 	}, {
 
 		avatar : "images/page1-xvwei.jpg",
 
-		name : "许维",
+		name : "砵仔糕",
 
-		duty : "明道副总裁"
+		duty : "如糖果一样。很Q。"
 
 	}, {
 
 		avatar : "images/page1-yanghaoyong.jpg",
 
-		name : "杨浩涌",
+		name : "鸡蛋仔",
 
-		duty : "赶集网CEO"
+		duty : "包裹着鸡蛋，甜甜的味道。"
 
 	}, {
 
 		avatar : "images/page1-zhangchaoyang.jpg",
 
-		name : "张朝阳",
+		name : "富豪软雪糕",
 
-		duty : "搜狐董事局主席兼CEO"
+		duty : "用料很足，纯奶油哦！"
 
 	}, {
 
 		avatar : "images/page1-zhangyiming.jpg",
 
-		name : "张一鸣",
+		name : "狗仔粉",
 
-		duty : "今日头条创始人兼CEO"
+		duty : "传说中的狗仔粉。"
 
 	}, {
 
 		avatar : "images/page1-zhaoguocheng.jpg",
 
-		name : "赵国成",
+		name : "太极饼",
 
-		duty : "品胜董事长"
+		duty : "山药、红薯泥、分别制作八卦。"
 
 	}, {
 
 		avatar : "images/page1-zhouhang.jpg",
 
-		name : "周航",
+		name : "面窝",
 
-		duty : "易到用车创始人兼CEO"
+		duty : "四周厚中间薄、呈凹状，而叫它面窝。"
 
 	}, {
 
 		avatar : "images/page1-chenxiaohua.jpg",
 
-		name : "陈小华",
+		name : "润饼卷",
 
-		duty : "58同城首席战略官兼58到家CEO"
+		duty : "集结了各种蔬菜，肉丝，花生糖粉，薄饼卷一切，"
 
 	}
+
+
+
 
 ];
 
