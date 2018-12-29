@@ -188,7 +188,18 @@
 .animate .page0-title {
     -webkit-animation: 0.4s scale-to-zero-with-center 0.8s cubic-bezier(.17, .67, .11, .93) forwards;
 }
-
+
+.page1-info {
+    position: absolute;
+    height: 10%;
+    top: 80%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, 0, 0) scale(20);
+    opacity: 0;
+}
+.animate .page1-info {
+    -webkit-animation: 0.4s scale-to-zero-with-center 1.2s cubic-bezier(.17, .67, .11, .93) forwards;
+}
 .page0-info {
     position: absolute;
     height: 15%;
@@ -403,9 +414,9 @@
 /*第三四页之间的一页*/
 .page3-5-subtitle {
     position: absolute;
-    height: 10.21%;
+    height: 40%;
     top: 22.81%;
-    left: 50%;
+    left: 52%;
     opacity: 0;
     -webkit-transform: translate3d(-50%, 0, 0) scale(20);
 }
@@ -416,8 +427,8 @@
 
 .page3-5-line1 {
     position: absolute;
-    height: 7.93%;
-    top: 36.21%;
+    height: 28%;
+    top: 68%;
     left: 50%;
     opacity: 0;
     -webkit-transform: translate3d(-50%, 0, 0);
@@ -431,9 +442,9 @@
 
 .page3-5-line2 {
     position: absolute;
-    height: 8.134%;
-    top: 46.23%;
-    left: 50%;
+    height: 25%;
+    top: 3%;
+    left: 60%;
     opacity: 0;
     -webkit-transform: translate3d(-50%, 0, 0);
 }
@@ -447,7 +458,7 @@
 .page3-5-line3 {
     position: absolute;
     height: 8.333%;
-    top: 56.25%;
+    top: 18%;
     left: 50%;
     opacity: 0;
     -webkit-transform: translate3d(-50%, 0, 0);
@@ -461,8 +472,8 @@
 
 .page3-5-line4 {
     position: absolute;
-    height: 5.95%;
-    top: 66.56%;
+    height: 50%;
+    top: 30%;
     left: 50%;
     opacity: 0;
     -webkit-transform: translate3d(-50%, 0, 0);
@@ -476,7 +487,7 @@
 
 .page3-5-line5 {
     position: absolute;
-    height: 8.134%;
+    height: 20%;
     top: 74.3%;
     left: 50%;
     opacity: 0;
@@ -648,7 +659,7 @@
 /*第五页*/
 .page5-map {
     position: absolute;
-    height: 38.09%;
+    height: 50%;
     top: 31.94%;
     left: 50%;
     -webkit-transform: translate3d(-50%, 0, 0);
@@ -691,7 +702,8 @@
 
 .page5-arrow-point {
     position: absolute;
-    top: 36.5%;
+    top: 60%;
+    left: 40%;
     height: 3.76%;
     opacity: 0;
 }
