@@ -458,7 +458,7 @@
 .page3-5-line3 {
     position: absolute;
     height: 8.333%;
-    top: 18%;
+    top: 30%;
     left: 50%;
     opacity: 0;
     -webkit-transform: translate3d(-50%, 0, 0);
@@ -473,7 +473,7 @@
 .page3-5-line4 {
     position: absolute;
     height: 50%;
-    top: 30%;
+    top: 35%;
     left: 50%;
     opacity: 0;
     -webkit-transform: translate3d(-50%, 0, 0);
@@ -488,7 +488,7 @@
 .page3-5-line5 {
     position: absolute;
     height: 20%;
-    top: 74.3%;
+    top: 79%;
     left: 50%;
     opacity: 0;
     -webkit-transform: translate3d(-50%, 0, 0);
@@ -524,8 +524,8 @@
 
 .page4-title2 {
     position: absolute;
-    height: 4.5634%;
-    top: 62.3%;
+    height:20%;
+    top: 76%;
     left: 50%;
     -webkit-transform: translate3d(-50%, 0, 0) scale(20);
     opacity: 0;
@@ -573,7 +573,7 @@
 
 .page4-big-logo {
     position: absolute;
-    height: 25.69%;
+    height: 40%;
     top: 36.4087%;
     left: 50%;
     -webkit-transform: translate3d(-50%, 0, 0);
@@ -673,7 +673,7 @@
 .page5-info {
     position: absolute;
     height: 2.38%;
-    top: 72.51%;
+    top: 80%;
     left: 50%;
     -webkit-transform: translate3d(-50%, 0, 0) scale(20);
     opacity: 0;
@@ -686,7 +686,7 @@
 .page5-btn {
     position: absolute;
     height: 7.34%;
-    top: 79.66%;
+    top: 85%;
     left: 50%;
     -webkit-transform: translate3d(-50%, 0, 0);
     opacity: 0;
@@ -816,8 +816,8 @@
 
 .page6-btn {
     position: absolute;
-    top: 70%;
-    height: 7.34%;
+    top: 99.1%;
+    height: 0.01%;
     left: 50%;
     opacity: 0;
     -webkit-transform: translate3d(-50%, 0, 0);
