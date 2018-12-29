@@ -775,8 +775,8 @@
 /*ตฺม๙าณ*/
 .page6-title {
     position: absolute;
-    height: 13.19%;
-    top: 16%;
+    height:50%;
+    top: 10%;
     left: 50%;
     -webkit-transform: translate3d(-50%, 0, 0) scale(20);
     opacity: 0;
@@ -788,8 +788,8 @@
 
 .page6-subtitle {
     position: absolute;
-    height: 4.46%;
-    top: 31%;
+    height: 15%;
+    top: 65%;
     left: 50%;
     -webkit-transform: translate3d(-50%, 0, 0) scale(20);
     opacity: 0;
